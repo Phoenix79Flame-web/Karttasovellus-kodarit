@@ -10,7 +10,7 @@ const paikat = [
   {
     "paikka": "Helsinki",
     "arvostelu": "kiva oli",
-    "longitud": "24.8953588",
+    "longitude": "24.8953588",
     "latitude": "60.19617590000001"
   },
   {
