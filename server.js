@@ -28,5 +28,6 @@ app.get('/api/paikat', function(reguest, response) {
 app.post('/api/arvostelu', function(reguest, response) {
   console.log("Käyttäjä arvostelu");
   console.log(reguest.body);
+  paikat.push(reguest.body);
   response.send(200);
 })
